@@ -1,7 +1,7 @@
 MailView -- Visual email testing
 ================================
 
-Preview plain text and html mail templates in your browser without redelivering it every time you make a change.
+Preview plain text and html mail templates in your browser every time you make a change without redelivering it.
 
 Rails 4.1
 ---------
@@ -28,7 +28,7 @@ And run `bundle install`.
 Usage
 -----
 
-Since most emails do something interesting with database data, you'll need to write some scenarios to load messages with fake data. Its similar to writing mailer unit tests but you see a visual representation of the output instead.
+Since most emails do something interesting with database data, you'll need to write some scenarios to load messages with fake data. It's similar to writing mailer unit tests but you see a visual representation of the output instead.
 
 ```ruby
   # app/mailers/mail_preview.rb or lib/mail_preview.rb
